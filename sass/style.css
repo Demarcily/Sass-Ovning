@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul[role=list] {
+  list-style: none;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  float: left;
+}
+.sidebar-image {
+  height: 192px;
+}
+.sidebar-menu {
+  flex-direction: column;
+  font-weight: bold;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+.sidebar-menu a {
+  display: block;
+  font-size: 13px;
+  line-height: normal;
+  color: black;
+  padding: 5px 0 5px 36px;
+  box-sizing: border-box;
+}
+.sidebar-special {
+  color: black;
+  background: #d8d8d8 url("//static.nonograms.org/i/menu_head_background.png") left -2px no-repeat;
+  text-align: left;
+  padding: 4px 0 0 30px;
+  margin: 0 0 3px 0;
+  font-size: 11px;
+  line-height: normal;
+  box-sizing: border-box;
+  height: 26px;
+  overflow: hidden;
+}
+.sidebar-menu a:hover {
+  background-color: #e5e5e5;
+}
+
+/*# sourceMappingURL=style.css.map */

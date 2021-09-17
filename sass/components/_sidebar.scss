@@ -1,0 +1,48 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  float: left;
+
+  &-image  {
+    height: 192px;
+  }
+
+  &-menu {
+
+    flex-direction: column;
+    font-weight: bold;
+    font-family: Tahoma, Geneva, sans-serif;
+  }
+
+  &-menu a {
+    display: block;
+    font-size: 13px;
+    line-height:normal;
+    color: black;
+    padding: 5px 0 5px 36px;
+    box-sizing: border-box;
+  }
+
+  &-special {
+    color: black;
+    background: #d8d8d8 url("//static.nonograms.org/i/menu_head_background.png") left -2px no-repeat;
+    text-align:left;
+    padding: 4px 0 0 30px;
+    margin: 0 0 3px 0;
+    font-size: 11px;
+    line-height:normal;
+    box-sizing: border-box;
+    height: 26px;
+    overflow: hidden;
+  }
+  &-menu a:hover {
+    background-color: $hovercolor;
+  }
+ 
+ 
+
+
+
+  
+
+}
